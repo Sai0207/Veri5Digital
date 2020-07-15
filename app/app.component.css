@@ -1,0 +1,103 @@
+.form-control-sm{
+    background-color: blue;
+    border : none;
+   
+}
+._border{
+    border : none;
+    border-bottom: solid white;
+    width: 1109px;
+    margin-left: 50px;
+}
+.form-control-sm::placeholder {
+    color: white;
+   
+  }
+  .active, .form-control-sm:hover {
+    background-color: blue;
+    
+  }
+._head{
+    background-color: blue;
+    padding: 6px;
+}
+
+.star-6{
+    width: 0px;
+    height: 0px;
+    margin-left: -5px;
+    margin-top: -14px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 38px solid yellow;
+}
+.star-6:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 38px solid yellow;
+    top: 20px;
+    left: 18px;
+}
+._shoping{
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+  .col-md-6{
+      margin-right: 0px;
+    /* scroll-padding: 18px; */
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .img_size{
+      padding-top: 24px;
+      padding-bottom: 24px;
+  }
+
+.SubmitButtonClass{
+    border:none; 
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gold;
+    outline:none;
+}
+/* input[type="button"]{
+    
+ } */
+ .SubmitButtonClass:hover{
+     background-color: rgb(196, 171, 29);
+ }
+ .SubmitButtonClass:active{
+     background-color: gold;
+ }
+
+ ._cartcount{
+    
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    /* margin-left: -2px; */
+    border-radius: 71%;
+    height: 22px;
+    width: 15px;
+    padding-left: 4px;
+    background-color: red;
+ }
+
+ @media screen and (max-width: 700px) {
+     ._head {   
+      flex-direction: column;
+    }
+  }
