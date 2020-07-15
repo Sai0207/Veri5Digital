@@ -27,7 +27,6 @@ export class AppComponent {
       "name": "Item2",
       "price": 190,
       "discount": 7,
-      count: 0,
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
       },
       {
@@ -35,7 +34,6 @@ export class AppComponent {
       "name": "Item3",
       "price": 213,
       "discount": 20,
-      count: 0,
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
       },
       {
@@ -43,7 +41,6 @@ export class AppComponent {
       "name": "Item4",
       "price": 217,
       "discount": 18,
-      count : 0,
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
       },
        {
@@ -51,7 +48,6 @@ export class AppComponent {
       "name": "Item5",
       "price": 319,
       "discount": 31,
-      count : 0,
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
       },
       {
@@ -59,7 +55,6 @@ export class AppComponent {
       "name": "Item6",
       "price": 499,
       "discount": 44,
-      count: 0,
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
       }
   ]
